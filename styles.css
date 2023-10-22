@@ -11,3 +11,16 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+
+.name{
+    color: #f50aa7;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 0 0 2px white;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
