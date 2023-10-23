@@ -113,6 +113,11 @@ a{
 
 @media (max-width: 600px) {
 
+    body{
+        background-image: url(images/pexels-karolina-grabowska-4814060.jpg);
+        background-position: center;
+    }
+
     .name{
         font-size: 1.5rem;
     }
