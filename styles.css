@@ -3,6 +3,12 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    margin: 0;
+}
+
+.hr{
+    display: flex;
+    justify-content: center;
 }
 
 .header-section{
@@ -10,6 +16,15 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 0;
+    height: 5em;
+}
+
+.line{
+    padding:0;
+    margin: 0;
+    width: 80%;
+    text-align: center;
 }
 
 .name{
@@ -17,10 +32,28 @@ body{
     font-family: 'Dancing Script', cursive;
     font-size: 3rem;
     font-weight: bold;
-    text-shadow: 0 0 2px white;
+    text-shadow: 1px 1px 2px white;
 }
 
 .link{
     text-decoration: none;
     color: white;
+}
+
+.mid-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 8%;
+}
+
+.mid{
+    border: 1px solid white;
+    width: 20%;
+    text-align: center;
+    height: 30%;
+}
+
+.img1, .img2, .img3{
+    width: 100%;
 }
