@@ -27,11 +27,6 @@ body{
     text-align: center;
 }
 
-.date{
-    display: flex;
-    flex-direction: row;
-}
-
 .name{
     color: #f50aa7;
     font-family: 'Dancing Script', cursive;
@@ -46,14 +41,26 @@ body{
 }
 
 .mid-section{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 8%;
+    text-align: center;
+    padding: 5% 20% 2%;
+    color: white;
+    text-shadow: 1px 1px 2px #f50aa7;
 }
 
-.heading{
-    color: rgb(255, 255, 255);
+ul{
+        display: inline-block;
+        text-align: left;
+}
+
+.two{
+    padding-left: 0.5%;
+    width: 80%;
+}
+
+.lower-mid{
+    text-align: center;
+    padding: 1% 20%;
+    color: white;
     text-shadow: 1px 1px 2px #f50aa7;
 }
 
@@ -61,30 +68,9 @@ a{
     text-decoration: none;
 }
 
-.mid{
-    border: 2px solid rgb(239, 150, 202);
-    border-radius: 2%;
-    width: 20%;
-    text-align: center;
-    height: 30%;
-}
-
-.img1, .img2, .img3, .img4{
-    width: 100%;
-}
-
-.img5{
-    width: 5%;
-}
-
-.two{
-    margin: 10% 0 1%;
-    width: 80%;
-}
 .inner-footer{
     display: flex;
     flex-direction: row;
-    align-items: center;
     margin-left: 5%;
 }
 
@@ -94,12 +80,8 @@ a{
     align-items: center;
 }
 
-.i{
-    font-size: 148.31%;
-}
-
-.b{
-    margin-left: 10px;
+.img5{
+    width: 5%;
 }
 
 .name2{
@@ -111,8 +93,11 @@ a{
     text-shadow: 1px 1px 2px white;
 }
 
-@media (max-width: 600px) {
+.two{
+    margin: 10% 0 1%;
+}
 
+@media (max-width: 600px){
     .name{
         font-size: 1.5rem;
     }
@@ -120,29 +105,20 @@ a{
     .header-section{
         font-size: 75%;
     }
-    .mid-section
-    {
-        font-size: 30%;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .mid{
-        width: 160px;
-        margin-bottom: 5%;
-    }
-
-    .fourth{
-        margin-bottom: -5%;
-    }
-
-    .footer{
-        text-align: center;
-        padding: 0;
-    }
 
     .b{
         margin-left: 4px;
     }
-  }
+
+    h2{
+        font-size: 1.2rem;
+    }
+
+    h3{
+        font-size: 1rem;
+    }
+
+    p{
+        font-size: 0.8rem;
+    }
+}
