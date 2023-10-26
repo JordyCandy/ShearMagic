@@ -1,9 +1,15 @@
 body{
-    background-image: url(./images/pexels-karolina-grabowska-4814060.jpg);
+    background-image: url(../images/pexels-karolina-grabowska-4814060.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     margin: 0;
+    color: white;
+    text-shadow: 1px 1px 2px #cf068c;
+}
+
+a{
+    text-decoration: none;
 }
 
 .hr{
@@ -16,8 +22,13 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    color: white;
     padding: 0 2% 0;
     height: 5em;
+}
+
+.b{
+    margin-left: 10px;
 }
 
 .line{
@@ -38,39 +49,29 @@ body{
 .link{
     text-decoration: none;
     color: white;
+    text-shadow: none;
 }
 
-.mid-section{
-    text-align: center;
-    padding: 5% 20% 2%;
-    color: white;
-    text-shadow: 1px 1px 2px #f50aa7;
+/*mid-section*/
+
+/*footer*/
+.date{
+    display: flex;
+    flex-direction: row;
 }
 
-ul{
-        display: inline-block;
-        text-align: left;
+.img5{
+    width: 5%;
 }
 
 .two{
-    padding-left: 0.5%;
+    margin: 10% 0 1%;
     width: 80%;
 }
-
-.lower-mid{
-    text-align: center;
-    padding: 1% 20%;
-    color: white;
-    text-shadow: 1px 1px 2px #f50aa7;
-}
-
-a{
-    text-decoration: none;
-}
-
 .inner-footer{
     display: flex;
     flex-direction: row;
+    align-items: center;
     margin-left: 5%;
 }
 
@@ -78,14 +79,6 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.img5{
-    width: 5%;
-}
-
-.b{
-    margin-left: 10px;
 }
 
 .name2{
@@ -97,17 +90,15 @@ a{
     text-shadow: 1px 1px 2px white;
 }
 
-.two{
-    margin: 10% 0 1%;
-}
-
+/*media*/
 @media (max-width: 600px){
-
+    /*header*/
     body{
-        background-image: url(images/pexels-karolina-grabowska-4814060.jpg);
+        background-image: url(../images/pexels-karolina-grabowska-4814060.jpg);
         background-position: center;
     }
 
+    /*header*/
     .name{
         font-size: 1.5rem;
     }
@@ -115,28 +106,23 @@ a{
     .header-section{
         font-size: 75%;
     }
-
     .b{
         margin-left: 4px;
     }
 
-    h2{
-        font-size: 1.2rem;
-    }
+    /*mid-section*/
 
-    h3{
-        font-size: 1rem;
-    }
-
-    p{
-        font-size: 0.8rem;
-    }
-
+    /*footer*/
     .date{
         font-size: 0.8rem;
     }
 
     .name2{
         font-size: 1rem;
+    }
+
+    .footer{
+        text-align: center;
+        padding: 0;
     }
 }
