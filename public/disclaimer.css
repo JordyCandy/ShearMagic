@@ -53,7 +53,18 @@ a{
 }
 
 /*mid-section*/
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
+.attention{
+    margin-top: 3%;
+    text-align: center;
+    width: 20%;
+    background-color: black;
+}
 /*footer*/
 .date{
     display: flex;
