@@ -124,7 +124,14 @@ a{
     }
 
     /*mid-section*/
+    .attention{
+        font-size: 60%;
+        width: 50%;
+    }
 
+    .info{
+        font-size: 60%;
+    }
     /*footer*/
     .date{
         font-size: 0.8rem;
